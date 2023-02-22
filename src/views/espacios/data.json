@@ -1,0 +1,69 @@
+[
+    {
+      "id": "mor1001",
+      "name": "Manuel Mendoza",
+      "medidas": "8X4.5","email": "mmendoza@mnaranja.com",
+      "country": "Cuernavaca",
+      "starred": false,
+      "status": "Pendiente",
+      "factura": "Aprobado",
+      "permiso": "En proceso",
+      "contrato": "Aprobado"
+    },
+    {
+      "id": "chi1002",
+      "name": "Juan Pérez",
+      "medidas": "9X4.5","email": "jperez@mnaranja.com",
+      "country": "Chihuahua",
+      "starred": true,
+      "status": "En proceso",
+      "factura": "Aprobado",
+      "permiso": "En proceso",
+      "contrato": "Pendiente"
+      
+    },
+    {
+      "id": "son1003",
+      "name": "Ana Arroyo",
+      "medidas": "8X2.5","email": "aarroyo@mnaranja.com",
+      "country": "Coahuila",
+      "starred": false,
+      "status": "Pendiente",
+      "factura": "En proceso",
+      "permiso": "Aprobado",
+      "contrato": "Pendiente"
+    },
+    {
+      "id": "coa1004",
+      "name": "Omar Núñez",
+      "medidas": "3X4.5","email": "onunez@mnaranja.com",
+      "country": "Coatzacoalcos",
+      "starred": true,
+      "status": "En proceso",
+      "factura": "Aprobado",
+      "permiso": "Pendiente",
+      "contrato": "Pendiente"
+    },
+    {
+      "id": "vla1006",
+      "name": "Guillermo Mendoza",
+      "medidas": "5X5","email": "gmendoza@mnaranja.com",
+      "country": "Villahermosa",
+      "starred": true,
+      "status": "En proceso",
+      "factura": "Aprobado",
+      "permiso": "Aprobado",
+      "contrato": "Pendiente"
+    },
+    {
+      "id": "pue1005",
+      "name": "Rodrigo Martínez",
+      "medidas": "8X4.5","email": "rmartinez@mnaranja.com",
+      "country": "Puebla",
+      "starred": false,
+      "status": "Aprobado",
+      "factura": "Aprobado",
+      "permiso": "Aprobado",
+      "contrato": "Pendiente"
+    }
+]

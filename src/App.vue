@@ -1,30 +1,68 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+	<div class="app">
+		<!-- Navbar -->
+		<Navbar />
+
+		<div class="window-app">
+			<!-- Sidebar -->
+			<Sidebar />
+
+		<!-- Content -->
+		<router-view />
+		</div>
+	</div>
+
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<script setup>
+import Sidebar from './components/sidebar/Sidebar.vue'
+import Navbar from './components/Navbar.vue'
+
+</script>
+
+<style lang="scss">
+@import '~@/../mdb/scss/index.free.scss';
+
+:root {
+	--primary: #ef812c;
+	--primary-alt: #ffb782;
+	--grey: #64748b;
+	--dark: #1e293b;
+	--dark-alt: #334155;
+	--light: #fff;
+	--sidebar-width: 250px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Fira sans', sans-serif;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+body {
+	background: var(--light);
+}
+
+button {
+	cursor: pointer;
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+}
+
+.app {
+	.window-app{
+		display: flex;
+
+		main {
+			flex: 1 1 0;
+			padding: 1.5rem;
+			@media (max-width: 1024px) {
+				padding-left: 6rem;
+			}
+		}
+	}
 }
 </style>
