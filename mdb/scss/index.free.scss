@@ -1,0 +1,102 @@
+// CORE FUNCTIONS
+@import './standard/bootstrap-rtl-fix/functions';
+@import './standard/free/functions';
+
+// CORE VARIABLES
+@import './standard/custom/variables';
+@import './standard/free/variables';
+@import './standard/bootstrap-rtl-fix/variables';
+
+// BOOTSTRAP CORE
+@import './standard/bootstrap-rtl-fix/mixins';
+@import './standard/bootstrap-rtl-fix/utilities';
+
+// BOOTSTRAP CORE COMPONENTS
+@import './standard/bootstrap-rtl-fix/root';
+@import './standard/bootstrap-rtl-fix/reboot';
+@import './standard/bootstrap-rtl-fix/type';
+@import './standard/bootstrap-rtl-fix/images';
+@import './standard/bootstrap-rtl-fix/containers';
+@import './standard/bootstrap-rtl-fix/grid';
+
+// BOOTSTRAP COMPONENTS
+@import './standard/bootstrap-rtl-fix/tables';
+@import './standard/bootstrap-rtl-fix/forms';
+@import './standard/bootstrap-rtl-fix/buttons';
+@import './standard/bootstrap-rtl-fix/transitions';
+@import './standard/bootstrap-rtl-fix/dropdown';
+@import './standard/bootstrap-rtl-fix/button-group';
+@import './standard/bootstrap-rtl-fix/nav';
+@import './standard/bootstrap-rtl-fix/navbar';
+@import './standard/bootstrap-rtl-fix/card';
+@import './standard/bootstrap-rtl-fix/breadcrumb';
+@import './standard/bootstrap-rtl-fix/pagination';
+@import './standard/bootstrap-rtl-fix/badge';
+@import './standard/bootstrap-rtl-fix/alert';
+@import './standard/bootstrap-rtl-fix/accordion';
+@import './standard/bootstrap-rtl-fix/progress';
+@import './standard/bootstrap-rtl-fix/placeholders';
+@import './standard/bootstrap-rtl-fix/list-group';
+@import './standard/bootstrap-rtl-fix/close';
+@import './standard/bootstrap-rtl-fix/toasts';
+@import './standard/bootstrap-rtl-fix/modal';
+@import './standard/bootstrap-rtl-fix/popover';
+@import './standard/bootstrap-rtl-fix/carousel';
+@import './standard/bootstrap-rtl-fix/spinners';
+@import './standard/bootstrap-rtl-fix/offcanvas';
+@import './standard/bootstrap-rtl-fix/tooltip';
+
+// Helpers
+@import './standard/bootstrap-rtl-fix/helpers';
+
+// Utilities
+@import './standard/free/utilities';
+@import './standard/bootstrap-rtl-fix/utilities/api';
+
+// MDB CORE
+@import './standard/free/mixins';
+@import './standard/free/utilities';
+
+// MDB CORE COMPONENTS
+@import './standard/free/root';
+@import './standard/free/reboot';
+@import './standard/free/type';
+@import './standard/free/colors';
+@import './standard/free/shadows';
+@import './standard/free/flag';
+@import './standard/free/images';
+
+// MDB FORMS
+@import './standard/free/forms/form-control';
+@import './standard/free/forms/form-select';
+@import './standard/free/forms/form-check';
+@import './standard/free/forms/form-file';
+@import './standard/free/forms/input-group';
+@import './standard/free/forms/validation';
+@import './standard/free/forms/form-range';
+
+// MDB COMPONENTS
+@import './standard/free/tables';
+@import './standard/free/buttons';
+@import './standard/free/deprecated';
+@import './standard/free/dropdown';
+@import './standard/free/button-group';
+@import './standard/free/nav';
+@import './standard/free/navbar';
+@import './standard/free/card';
+@import './standard/free/breadcrumb';
+@import './standard/free/pagination';
+@import './standard/free/badge';
+@import './standard/free/alert';
+@import './standard/free/progress';
+@import './standard/free/list-group';
+@import './standard/free/close';
+@import './standard/free/modal';
+@import './standard/free/toasts';
+@import './standard/free/tooltip';
+@import './standard/free/popover';
+@import './standard/free/scrollspy';
+@import './standard/free/ripple';
+@import './standard/free/range';
+@import './standard/free/accordion';
+@import './standard/free/carousel';
