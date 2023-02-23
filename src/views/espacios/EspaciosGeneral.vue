@@ -64,7 +64,7 @@ function getStatusColor(status) {
       return 'success'
     }
 
-    if (status === 'Procesando') {
+    if (status === 'En proceso') {
       return 'warning'
     }
 

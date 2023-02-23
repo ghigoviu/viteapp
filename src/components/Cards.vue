@@ -4,17 +4,16 @@
       <MDBCard>
         <MDBCardBody>
           <MDBCardTitle>Documentos</MDBCardTitle>
-          <MDBCardText>
-            
-          </MDBCardText>
-          <MDBBtn tag="a" href="#!" color="danger">45</MDBBtn> 
-          <MDBBtn tag="a" href="#!" color="warning">20</MDBBtn> 
-          <MDBBtn tag="a" href="#!" color="success">20</MDBBtn> 
-          <MDBBtn tag="a" href="#!" color="primary">Ver informe</MDBBtn>
+          
+           <MDBBtn size="" tag="a" href="#!" color="danger" class="mb-3">Pendientes 45</MDBBtn> 
+            <MDBBtn tag="a" href="#!" color="warning" class="mb-3">En proceso 20</MDBBtn>
+            <MDBBtn tag="a" href="#!" color="success" class="mb-3">Aprobados 20</MDBBtn> 
+            <MDBBtn tag="a" href="#!" color="primary" class="mb-3">Ver informe completo</MDBBtn> 
+          
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
-    <MDBCol sm="4">
+    <MDBCol sm="3">
       <MDBCard>
         <MDBCardBody>
           <MDBCardTitle>Espacios registrados: 45</MDBCardTitle>
@@ -23,7 +22,7 @@
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
-    <MDBCol sm="4">
+    <MDBCol sm="3">
       <MDBCard>
         <MDBCardBody>
           <MDBCardTitle>Informe 3</MDBCardTitle>
@@ -33,6 +32,14 @@
           <MDBBtn tag="a" href="#!" color="primary">Ver informe completo</MDBBtn>
         </MDBCardBody>
       </MDBCard>
+
+      <MDBCard>
+        <MDBCardBody>
+          <MDBCardTitle>Otro informe</MDBCardTitle>
+            
+        </MDBCardBody>
+      </MDBCard>
+      
     </MDBCol>
   </MDBRow>
 </template>
